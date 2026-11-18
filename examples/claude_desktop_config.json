@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "job-hunter": {
+      "command": "job-hunter-mcp",
+      "env": {
+        "REED_API_KEY": "your-reed-key",
+        "ADZUNA_APP_ID": "your-adzuna-id",
+        "ADZUNA_APP_KEY": "your-adzuna-key"
+      }
+    }
+  }
+}

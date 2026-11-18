@@ -1,0 +1,14 @@
+# Example for Germany - copy to ~/.job-hunter/config.yaml
+# Beispiel für Deutschland - nach ~/.job-hunter/config.yaml kopieren
+
+adzuna_app_id: ""       # https://developer.adzuna.com/ (kostenlos)
+adzuna_app_key: ""
+data_dir: ~/.job-hunter
+
+search:
+  country: de
+  location: "Berlin"
+  distance_km: 25
+  temp_only: false
+  min_hourly: null         # Euro brutto / Stunde - aktuellen Mindestlohn eintragen
+  max_results: 25

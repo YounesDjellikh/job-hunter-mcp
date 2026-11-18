@@ -1,0 +1,29 @@
+# Copy to ~/.job-hunter/config.yaml and edit.
+# Secrets can instead be set as environment variables:
+#   REED_API_KEY, ADZUNA_APP_ID, ADZUNA_APP_KEY
+
+reed_api_key: ""        # UK only - https://www.reed.co.uk/developers/jobseeker
+adzuna_app_id: ""       # UK + Europe - https://developer.adzuna.com/
+adzuna_app_key: ""
+
+# Where the tracker database and Excel export live
+data_dir: ~/.job-hunter
+
+# Gmail (optional, read-only) - see README "Gmail setup"
+gmail_credentials: ~/.job-hunter/credentials.json
+gmail_token: ~/.job-hunter/token.json
+
+# Defaults used by search_jobs when you don't say otherwise
+search:
+  country: gb               # gb, fr, de, es, it, nl, be, at, ch, pl
+  location: "Manchester"
+  distance_miles: 10        # UK
+  # distance_km: 20         # use this instead outside the UK
+  temp_only: false          # true = temporary/contract roles only
+  min_hourly: 13.0          # in local currency (GBP, EUR, CHF, PLN); drops lower-paid jobs when pay is known
+  max_results: 25
+  # exclude_keywords: by default, self-employed / freelance / commission-only wording
+  # in 7 languages is filtered out. Uncomment to replace that list with your own:
+  # exclude_keywords:
+  #   - self-employed
+  #   - auto-entrepreneur

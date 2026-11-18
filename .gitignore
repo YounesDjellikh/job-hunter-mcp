@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+
+# Your private data - never commit these
+config.yaml
+credentials.json
+token.json
+*.db
+*.xlsx
+.env
+.job-hunter/

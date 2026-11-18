@@ -1,0 +1,14 @@
+# Example for France - copy to ~/.job-hunter/config.yaml
+# Exemple pour la France - copiez dans ~/.job-hunter/config.yaml
+
+adzuna_app_id: ""       # https://developer.adzuna.com/ (gratuit)
+adzuna_app_key: ""
+data_dir: ~/.job-hunter
+
+search:
+  country: fr
+  location: "Lyon"
+  distance_km: 20
+  temp_only: true          # intérim / CDD uniquement
+  min_hourly: null         # euros brut / heure - mettez le SMIC en vigueur (ex. 12.00)
+  max_results: 25
